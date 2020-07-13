@@ -1,0 +1,51 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@react-native-community/masked-view": "0.1.6",
+    "expo": "^37.0.12",
+    "expo-constants": "~9.0.0",
+    "expo-facebook": "~8.1.0",
+    "expo-file-system": "~8.1.0",
+    "expo-google-app-auth": "^8.1.2",
+    "expo-image-picker": "~8.1.0",
+    "expo-media-library": "~8.1.0",
+    "expo-notifications": "~0.1.1",
+    "expo-permissions": "~8.1.0",
+    "expo-sharing": "~8.1.0",
+    "firebase": "7.9.0",
+    "firestore": "^1.1.6",
+    "moment": "^2.27.0",
+    "react": "~16.9.0",
+    "react-dom": "~16.9.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-37.0.1.tar.gz",
+    "react-native-fetch-blob": "^0.10.8",
+    "react-native-form-validator": "^0.3.2",
+    "react-native-fs": "^2.16.6",
+    "react-native-gesture-handler": "~1.6.0",
+    "react-native-google-signin": "^2.1.1",
+    "react-native-image-base64": "^0.1.4",
+    "react-native-onesignal": "^3.8.1",
+    "react-native-reanimated": "~1.7.0",
+    "react-native-safe-area-context": "0.7.3",
+    "react-native-safe-area-view": "^1.1.1",
+    "react-native-screens": "~2.2.0",
+    "react-native-share": "^3.6.0",
+    "react-native-web": "~0.11.7",
+    "react-navigation": "^4.3.9",
+    "react-navigation-stack": "^2.7.0",
+    "react-navigation-tabs": "^2.8.13",
+    "rn-fetch-blob": "^0.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "babel-preset-expo": "~8.1.0"
+  },
+  "private": true
+}
